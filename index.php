@@ -10,7 +10,12 @@ session_start();
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!--<link rel="stylesheet" type="text/css" href="CSS/Estilos.css">-->
         <link rel="stylesheet" type="text/css" href="CSS/EstilosIndex.css">
+        <link rel="stylesheet" type="text/css" href="fonts.css">
+        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script src="js/jquery.slides.min.js"></script>
+        <script src="js/jquery.slides.js"></script>
         <script src="js/jquery-latest.min.js" type="text/javascript"></script>
+        
         <title>Toda Moda</title>
     </head>
     <body>
@@ -18,12 +23,10 @@ session_start();
                 ﻿<?=include('menu.php');?>
         </header>
         <section id="contenedorPrincipal">
-            <section id="main">
-                <div id="slider">
-                    <img src="oferta1.jpg">
-                    <img src="oferta2.jpg">
-                    <img src="oferta3.jpg">
-                    <img src="oferta4.jpg">
+            <section class="main">
+                <div class="slides">
+                    <img src="Imagenes/oferta2.jpg">
+                    <img src="Imagenes/oferta3.jpg">
                 </div>
                 <section id="destacado"></section>
                 <section id="lonuevo"></section>
@@ -33,7 +36,15 @@ session_start();
                     <article>
                         <hgroup>
                             <h3>Acerca de TodaModa</h3>
-                            <p>*texto*</p>
+                            <p>*texto*
+                                <br>
+                                <br><br><br>
+                                <br><br><br>
+                                <br><br><br><br>
+                                <br><br><br><br>
+                                <br><br><br>
+                                 hola
+                            </p>
                         </hgroup>
                     </article>
                 </section>
@@ -74,21 +85,23 @@ session_start();
             });
         });
         
-        var i = 0;
-        $(document).on("ready", main);
-
-        function main(){
-            var control = setInterval(cambiarSlider, 3000);
-        }
-
-        function cambiarSlider(){
-            i++;
-            if(i == $("#slider img").size()){
-		i = 0;
-            }
-            $("#slider img").hide();
-            $("#slider img").eq(i).fadeIn("medium");
-        }
+          
+        </script>
+        <script>
+        $(function(){
+        $(".slides").slidesjs({
+            play: {
+             active: true,
+             effect: "slide",
+            interval: 3000,
+            auto: true,
+            swap: true,
+            pauseOnHover: false,
+            restartDelay: 2500
+        
+    }
+  });
+});
         </script>
 </body>
 </html>
