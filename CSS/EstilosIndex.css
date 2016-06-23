@@ -25,6 +25,7 @@ a{
 
 #contenedorPrincipal {
     width:960px;
+    max-width: 1000px;
     margin:auto;
     clear:both;
 }
@@ -46,16 +47,19 @@ background: linear-gradient(to bottom,  #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#fefe
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe',GradientType=0 ); /* IE6-9 */
 
     margin-bottom: 10px;
+    padding: auto;
 }
 header nav ul{
    
     list-style: none;
+    margin:auto;
     overflow: hidden;
     
 }
 header nav ul li{
     
     float:left;
+    margin:auto;
 }
 
 header nav ul li a{
@@ -88,7 +92,7 @@ img.logo{
     z-index: 1000;
     top: 0;
     width: 100%;
-    max-width: 1000px;
+    max-width: 1400px;
 }
 
 
