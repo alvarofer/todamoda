@@ -6,7 +6,7 @@ require 'Usuario.php';
  * and open the template in the editor.
  */
 
-$oUsr=new Usuario(NULL,NULL,$_POST["usuario"],$_POST["clave"]);
+$oUsr=new Usuario(NULL,$_POST["correo"],$_POST["clave"],NULL);
 
 if ($oUsr->Acceso()){
     session_start();
