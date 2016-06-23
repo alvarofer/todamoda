@@ -24,6 +24,7 @@ body.login {
     background: #fff;
     border-radius: 5px;
     border-top: 5px solid #ff656c;
+
     margin: 0 auto;
 }
 
@@ -34,12 +35,14 @@ body.login {
     text-transform: uppercase;
     margin-top: 0;
     margin-bottom: 20px;
+    
 }
 
 .login-block input {
     width: 100%;
     height: 42px;
     box-sizing: border-box;
+    box-shadow: 3px 3px 0px #ff656c;
     border-radius: 5px;
     border: 1px solid #ccc;
     margin-bottom: 20px;
@@ -47,6 +50,7 @@ body.login {
     font-family: Montserrat;
     padding: 0 20px 0 50px;
     outline: none;
+    
 }
 
 .login-block input#correo {
@@ -78,6 +82,7 @@ body.login {
     height: 40px;
     background: #ff656c;
     box-sizing: border-box;
+    box-shadow: 3px 3px 0px #fff;
     border-radius: 5px;
     border: 1px solid #e15960;
     color: #fff;
@@ -110,7 +115,7 @@ body.login {
                         
                         <div id="mensaje"></div>
                         <br>
-                        <input type="button" name="ingresar" value ="ingresar" placeholder="Ingresar" 
+                        <input type="button" name="ingresar" value ="Ingresar          "  placeholder="Ingresar" 
                                id="ingresar" onclick="Validar()">
             
          
