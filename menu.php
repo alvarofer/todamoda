@@ -3,7 +3,7 @@
   <li class='active'><a href="#home">Inicio</a></li>
   <li class='has-sub'><a href="#">Productos</a>
          <ul>
-             <li><a href='producto_agregar.php'>Ingresar Producto</a></li>
+             <li><a href='Lib/producto_agregar.php'>Ingresar Producto</a></li>
         </ul>
   </li>
   <li><a href="#entrar">Entrar</a></li>
