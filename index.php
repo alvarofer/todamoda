@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
 session_start();
 ?>
@@ -42,8 +42,7 @@ session_start();
                                 <br><br><br>
                                 <br><br><br><br>
                                 <br><br><br><br>
-                                <br><br><br>
-                                 hola
+                                <br><br><br>                                
                             </p>
                         </hgroup>
                     </article>

@@ -1,4 +1,4 @@
-<?php
+ <?php
 include("../Libreria.php");
 
 $oPro=new Producto();
