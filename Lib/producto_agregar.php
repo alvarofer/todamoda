@@ -1,4 +1,4 @@
-<?php include('ValidaAcceso')?>
+<?php include('../ValidaAcceso.php')?>
 <!doctype html>
 <html lang=''>
 <head>
